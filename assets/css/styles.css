@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "filters"
+    "main"
+    "footer";
+    gap: 1rem;
+}
+
+.nav-links li {
+    padding: 0.5rem 0;
+}
+
+.filters {
+    grid-area: filters;
+}
+
+.main {
+    grid-area: main;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+.product-card img {
+    max-width: 70%;
+    height: auto;
+}
+.footer {
+    background-color: #0f53b8;
+}
+
+@media (min-width: 576px){
+    
+}
